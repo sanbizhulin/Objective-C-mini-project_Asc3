@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B22F0061B01D9D90094366D /* row-campus.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B22F0051B01D9D90094366D /* row-campus.txt */; };
+		9B3298D21B01FFA800E0FAFF /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3298D11B01FFA800E0FAFF /* arrow.png */; };
+		9B5BD0001AF57AF4004AAF09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5BCFFF1AF57AF4004AAF09 /* UIKit.framework */; };
+		9B5BD0021AF57AF4004AAF09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5BD0011AF57AF4004AAF09 /* Foundation.framework */; };
+		9B5BD0041AF57AF4004AAF09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5BD0031AF57AF4004AAF09 /* CoreGraphics.framework */; };
+		9B5BD00A1AF57AF4004AAF09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B5BD0081AF57AF4004AAF09 /* InfoPlist.strings */; };
+		9B5BD00C1AF57AF4004AAF09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BD00B1AF57AF4004AAF09 /* main.m */; };
+		9B5BD0101AF57AF4004AAF09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BD00F1AF57AF4004AAF09 /* AppDelegate.m */; };
+		9B5BD0131AF57AF4004AAF09 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5BD0111AF57AF4004AAF09 /* MainStoryboard.storyboard */; };
+		9B5BD0161AF57AF4004AAF09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BD0151AF57AF4004AAF09 /* ViewController.m */; };
+		9B5BD0291AF57C55004AAF09 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5BD0281AF57C55004AAF09 /* CoreLocation.framework */; };
+		9B5BD0951AF59744004AAF09 /* BackGroundPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B5BD0931AF59744004AAF09 /* BackGroundPad.png */; };
+		9B96F49E1AF9FD08008C5A2E /* PointCampus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B96F49D1AF9FD08008C5A2E /* PointCampus.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B22F0051B01D9D90094366D /* row-campus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "row-campus.txt"; sourceTree = "<group>"; };
+		9B3298D11B01FFA800E0FAFF /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = SupCompass/Image/arrow.png; sourceTree = SOURCE_ROOT; };
+		9B5BCFFB1AF57AF4004AAF09 /* SupCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5BCFFF1AF57AF4004AAF09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B5BD0011AF57AF4004AAF09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B5BD0031AF57AF4004AAF09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B5BD0071AF57AF4004AAF09 /* SupCompass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SupCompass-Info.plist"; sourceTree = "<group>"; };
+		9B5BD0091AF57AF4004AAF09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B5BD00B1AF57AF4004AAF09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B5BD00D1AF57AF4004AAF09 /* SupCompass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SupCompass-Prefix.pch"; sourceTree = "<group>"; };
+		9B5BD00E1AF57AF4004AAF09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B5BD00F1AF57AF4004AAF09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B5BD0121AF57AF4004AAF09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9B5BD0141AF57AF4004AAF09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B5BD0151AF57AF4004AAF09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B5BD0281AF57C55004AAF09 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9B5BD0931AF59744004AAF09 /* BackGroundPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackGroundPad.png; path = SupCompass/Image/BackGroundPad.png; sourceTree = SOURCE_ROOT; };
+		9B96F49C1AF9FD08008C5A2E /* PointCampus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PointCampus.h; path = ../PointCampus.h; sourceTree = "<group>"; };
+		9B96F49D1AF9FD08008C5A2E /* PointCampus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PointCampus.m; path = ../PointCampus.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B5BCFF81AF57AF4004AAF09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5BD0291AF57C55004AAF09 /* CoreLocation.framework in Frameworks */,
+				9B5BD0001AF57AF4004AAF09 /* UIKit.framework in Frameworks */,
+				9B5BD0021AF57AF4004AAF09 /* Foundation.framework in Frameworks */,
+				9B5BD0041AF57AF4004AAF09 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B5BCFF01AF57AF4004AAF09 = {
+			isa = PBXGroup;
+			children = (
+				9B5BD0051AF57AF4004AAF09 /* SupCompass */,
+				9B5BCFFE1AF57AF4004AAF09 /* Frameworks */,
+				9B5BCFFC1AF57AF4004AAF09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B5BCFFC1AF57AF4004AAF09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B5BCFFB1AF57AF4004AAF09 /* SupCompass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B5BCFFE1AF57AF4004AAF09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B5BD0281AF57C55004AAF09 /* CoreLocation.framework */,
+				9B5BCFFF1AF57AF4004AAF09 /* UIKit.framework */,
+				9B5BD0011AF57AF4004AAF09 /* Foundation.framework */,
+				9B5BD0031AF57AF4004AAF09 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B5BD0051AF57AF4004AAF09 /* SupCompass */ = {
+			isa = PBXGroup;
+			children = (
+				9B96F49C1AF9FD08008C5A2E /* PointCampus.h */,
+				9B96F49D1AF9FD08008C5A2E /* PointCampus.m */,
+				9B5BD00E1AF57AF4004AAF09 /* AppDelegate.h */,
+				9B5BD00F1AF57AF4004AAF09 /* AppDelegate.m */,
+				9B5BD0111AF57AF4004AAF09 /* MainStoryboard.storyboard */,
+				9B5BD0141AF57AF4004AAF09 /* ViewController.h */,
+				9B5BD0151AF57AF4004AAF09 /* ViewController.m */,
+				9B5BD0061AF57AF4004AAF09 /* Supporting Files */,
+			);
+			path = SupCompass;
+			sourceTree = "<group>";
+		};
+		9B5BD0061AF57AF4004AAF09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B973FF51AFB233600568AF5 /* resource */,
+				9B5BD0811AF57C91004AAF09 /* Image */,
+				9B5BD0071AF57AF4004AAF09 /* SupCompass-Info.plist */,
+				9B5BD0081AF57AF4004AAF09 /* InfoPlist.strings */,
+				9B5BD00B1AF57AF4004AAF09 /* main.m */,
+				9B5BD00D1AF57AF4004AAF09 /* SupCompass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B5BD0811AF57C91004AAF09 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				9B3298D11B01FFA800E0FAFF /* arrow.png */,
+				9B5BD0931AF59744004AAF09 /* BackGroundPad.png */,
+			);
+			name = Image;
+			path = ../../Image;
+			sourceTree = "<group>";
+		};
+		9B973FF51AFB233600568AF5 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				9B22F0051B01D9D90094366D /* row-campus.txt */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B5BCFFA1AF57AF4004AAF09 /* SupCompass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5BD0191AF57AF4004AAF09 /* Build configuration list for PBXNativeTarget "SupCompass" */;
+			buildPhases = (
+				9B5BCFF71AF57AF4004AAF09 /* Sources */,
+				9B5BCFF81AF57AF4004AAF09 /* Frameworks */,
+				9B5BCFF91AF57AF4004AAF09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SupCompass;
+			productName = SupCompass;
+			productReference = 9B5BCFFB1AF57AF4004AAF09 /* SupCompass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B5BCFF21AF57AF4004AAF09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9B5BCFF51AF57AF4004AAF09 /* Build configuration list for PBXProject "SupCompass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B5BCFF01AF57AF4004AAF09;
+			productRefGroup = 9B5BCFFC1AF57AF4004AAF09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B5BCFFA1AF57AF4004AAF09 /* SupCompass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B5BCFF91AF57AF4004AAF09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5BD00A1AF57AF4004AAF09 /* InfoPlist.strings in Resources */,
+				9B5BD0131AF57AF4004AAF09 /* MainStoryboard.storyboard in Resources */,
+				9B5BD0951AF59744004AAF09 /* BackGroundPad.png in Resources */,
+				9B22F0061B01D9D90094366D /* row-campus.txt in Resources */,
+				9B3298D21B01FFA800E0FAFF /* arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B5BCFF71AF57AF4004AAF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5BD00C1AF57AF4004AAF09 /* main.m in Sources */,
+				9B5BD0101AF57AF4004AAF09 /* AppDelegate.m in Sources */,
+				9B5BD0161AF57AF4004AAF09 /* ViewController.m in Sources */,
+				9B96F49E1AF9FD08008C5A2E /* PointCampus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B5BD0081AF57AF4004AAF09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B5BD0091AF57AF4004AAF09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B5BD0111AF57AF4004AAF09 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B5BD0121AF57AF4004AAF09 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B5BD0171AF57AF4004AAF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B5BD0181AF57AF4004AAF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B5BD01A1AF57AF4004AAF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SupCompass/SupCompass-Prefix.pch";
+				INFOPLIST_FILE = "SupCompass/SupCompass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B5BD01B1AF57AF4004AAF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SupCompass/SupCompass-Prefix.pch";
+				INFOPLIST_FILE = "SupCompass/SupCompass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B5BCFF51AF57AF4004AAF09 /* Build configuration list for PBXProject "SupCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5BD0171AF57AF4004AAF09 /* Debug */,
+				9B5BD0181AF57AF4004AAF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5BD0191AF57AF4004AAF09 /* Build configuration list for PBXNativeTarget "SupCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5BD01A1AF57AF4004AAF09 /* Debug */,
+				9B5BD01B1AF57AF4004AAF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B5BCFF21AF57AF4004AAF09 /* Project object */;
+}
